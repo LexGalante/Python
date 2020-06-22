@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Oi",
+        "Olá",
+        "Bom dia",
+        "Boa tarde",
+        "Boa noite"
+      ],
+      "responses": [
+        "Posso ajudar?",
+        "Pois não?",
+        "Como posso ser útil?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tchau",
+        "Até mais",
+        "Até logo"
+      ],
+      "responses": [
+        "Até logo, vejo você no  vestibular",
+        "Até mais! Boa mostra de profissões para você",
+        "Tchau! Volte logo!."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Obrigado",
+        "Grato",
+        "Valeu",
+        "Agradeço"
+      ],
+      "responses": [
+        "Fico feliz em ajudar!",
+        "Conte comigo",
+        "Por nada!"
+      ]
+    },
+    {
+      "tag": "porta",
+      "patterns": [
+        "Quantas portas?",
+        "Qual é o número de portas?",
+        "Tem 4 portas?",
+        "Tem 2 portas?"
+      ],
+      "responses": [
+        "O veículo tem @porta."
+      ]
+    },
+    {
+      "tag": "motor",
+      "patterns": [
+        "Quantos cilindros?",
+        "Qual é a potência?",
+        "Anda bem?"
+      ],
+      "responses": [
+        "@motor"
+      ]
+    },
+    {
+      "tag": "preco",
+      "patterns": [
+        "Como fica o financiamento?",
+        "Da pra financiar?",
+        "Qual é o valor?",
+        "Tá muito caro?",
+        "Qual é o preço?",
+        "Esse ai é caro né"
+      ],
+      "responses": [
+        "@preco"
+      ]
+    },
+    {
+      "tag": "ano",
+      "patterns": [
+        "Qual é o ano?",
+        "Que ano é?",
+        "É novo?",
+        "É velho?"
+      ],
+      "responses": [
+        "@ano"
+      ]
+    }
+  ]
+}
