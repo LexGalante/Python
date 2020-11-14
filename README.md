@@ -1,2 +1,2 @@
 # Python
-Estudos de fundamento data science e machine learning usando python
+Estudos de tópicos de datascience, usando scikit-learn, pandas, numpy, searborn, matplotlib, tensor-flow
